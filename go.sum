@@ -1,0 +1,5 @@
+github.com/divan/gorilla-xmlrpc v0.0.0-20190926132722-f0686da74fda/go.mod h1:3Cp6mWQcmK3erqkPrriKEkSpok0LO1uB2M5GxGzifhc=
+github.com/gorilla/rpc v1.2.0/go.mod h1:V4h9r+4sF5HnzqbwIez0fKSpANP0zlYd3qR7p36jkTQ=
+github.com/ninteen19/testlink-go-api v0.0.0-20210613161747-32f039065b2e h1:R6udn3Ep2Lu8qfyyv3HKm8SYCspKvLdwCnvxa9DknsQ=
+github.com/ninteen19/testlink-go-api v0.0.0-20210613161747-32f039065b2e/go.mod h1:88iu0ejEhNLPxzVqCu3PzKk6psypZhM6tGxjihzFumw=
+github.com/rogpeppe/go-charset v0.0.0-20190617161244-0dc95cdf6f31/go.mod h1:qgYeAmZ5ZIpBWTGllZSQnw97Dj+woV0toclVaRGI8pc=
