@@ -1,7 +1,7 @@
 package request
 
 import (
-	"github.com/ninteen19/testlink-go-api/models"
+	"github.com/ninteen19/testlink-go-api"
 )
 
 type CreateTestCase struct {
@@ -10,7 +10,7 @@ type CreateTestCase struct {
 	TestProjectId int
 	AuthorLogin   string
 	Summary       string
-	Steps         []models.TestCaseStep
+	Steps         []testlink.TestCaseStep
 	//Preconditions string
 	//Status                 enums.TestCaseStatus
 	//Importance             enums.TestImportance
