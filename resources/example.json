@@ -1,0 +1,46 @@
+{
+  "id": "162592801",
+  "type": "page",
+  "status": "current",
+  "title": "Test",
+  "body": {
+    "storage": {
+      "value": "<table class=\"relative-table wrapped\" style=\"width: 262.5px;\"><colgroup><col style=\"width: 0.0px;\" /></colgroup><thead><tr><th style=\"text-align: left;\"><p>Services</p></th></tr></thead><tbody><tr><td style=\"text-align: left;\"><ol><li>Apps</li></ol></td></tr></tbody></table><p><br /></p><p><strong>List of Test Cases</strong></p><p><ac:structured-macro ac:name=\"toc\" ac:schema-version=\"1\" ac:macro-id=\"796bcdb5-744b-4b20-bbfa-46640bea8e02\" /></p><p><br /></p><table class=\"relative-table wrapped\" style=\"letter-spacing: 0.0px;width: 74.125%;\"><colgroup><col style=\"width: 63.6973%;\" /><col style=\"width: 19.8339%;\" /><col style=\"width: 16.4689%;\" /></colgroup><thead><tr><th><h3>BM-2647 -&nbsp;[Mobile Apps] Enable instant delivery for Subscription on checkout one (shipping)</h3></th><th colspan=\"1\">TESTPROJECTID</th><th colspan=\"1\">TESTSUITEID</th></tr></thead><tbody><tr><td colspan=\"3\"><div class=\"content-wrapper\"><p>Testcases:</p><ac:structured-macro ac:name=\"expand\" ac:schema-version=\"1\" ac:macro-id=\"1d2167d6-94cd-44c6-8ef1-1e667c37a3ba\"><ac:rich-text-body><table class=\"relative-table wrapped\" style=\"width: 100.0%;\"><colgroup><col style=\"width: 2.24429%;\" /><col style=\"width: 28.6997%;\" /><col style=\"width: 5.03264%;\" /><col style=\"width: 9.52122%;\" /><col style=\"width: 5.98477%;\" /><col style=\"width: 5.98477%;\" /><col style=\"width: 42.3694%;\" /></colgroup><tbody><tr><th class=\"numberingColumn\" style=\"text-align: center;\"><p>No</p></th><th style=\"text-align: center;\"><p>Test Case</p></th><th style=\"text-align: center;\">Reviewer</th><th style=\"text-align: center;\">Created by</th><th colspan=\"1\">Result Android</th><th colspan=\"1\">Result iOS</th><th colspan=\"1\">Notes</th></tr><tr><td class=\"numberingColumn\" style=\"text-align: center;\">1</td><td colspan=\"1\"><p><strong>Scenario</strong>: User checkout using STANDARD logistic for 1 product</p><ul><li>User choose product that available for STANDARD</li><li>Go to checkout 1</li><li>Check UI should be correct for the design and wording</li><li>Verify that product can use STANDARD on the logistic available</li><li>Verify that another logistic other than STANDARD is available / not available&nbsp;</li><li>Verify that another logistic that available can be chosen</li><li>checkout using STANDARD success and order created&nbsp;</li></ul></td><td colspan=\"1\"><br /></td><td style=\"text-align: center;\" colspan=\"1\"><div class=\"content-wrapper\"><p><ac:link><ri:user ri:userkey=\"2c90419550dd20fe01519e773d930054\" /></ac:link></p></div></td><td colspan=\"1\"><div class=\"content-wrapper\"><p><span class=\"placeholder-inline-tasks\"><ac:structured-macro ac:name=\"status\" ac:schema-version=\"1\" ac:macro-id=\"a377df6f-e75d-4fa3-af1a-a2fb352da2d3\"><ac:parameter ac:name=\"colour\">Grey</ac:parameter><ac:parameter ac:name=\"title\">PENDING</ac:parameter><ac:parameter ac:name=\"\" /></ac:structured-macro></span></p><ac:task-list>\n<ac:task>\n<ac:task-id>677</ac:task-id>\n<ac:task-status>incomplete</ac:task-status>\n<ac:task-body><span class=\"placeholder-inline-tasks\">EN</span></ac:task-body>\n</ac:task>\n<ac:task>\n<ac:task-id>678</ac:task-id>\n<ac:task-status>incomplete</ac:task-status>\n<ac:task-body><span class=\"placeholder-inline-tasks\">ID</span></ac:task-body>\n</ac:task>\n</ac:task-list></div></td><td colspan=\"1\"><div class=\"content-wrapper\"><p><span class=\"placeholder-inline-tasks\"><ac:structured-macro ac:name=\"status\" ac:schema-version=\"1\" ac:macro-id=\"4dbcb517-31cd-4ee5-bdc3-6f2de0d6bb0c\"><ac:parameter ac:name=\"colour\">Grey</ac:parameter><ac:parameter ac:name=\"title\">PENDING</ac:parameter><ac:parameter ac:name=\"\" /></ac:structured-macro></span></p><ac:task-list>\n<ac:task>\n<ac:task-id>679</ac:task-id>\n<ac:task-status>incomplete</ac:task-status>\n<ac:task-body><span class=\"placeholder-inline-tasks\">EN</span></ac:task-body>\n</ac:task>\n<ac:task>\n<ac:task-id>680</ac:task-id>\n<ac:task-status>incomplete</ac:task-status>\n<ac:task-body><span class=\"placeholder-inline-tasks\">ID</span></ac:task-body>\n</ac:task>\n</ac:task-list></div></td><td colspan=\"1\"><br /></td></tr><tr><td class=\"numberingColumn\">2</td><td colspan=\"1\"><p><strong>Scenario</strong>: User checkout using EXPRESS logistic for 1 product</p><ul><li>User choose product that available for&nbsp;EXPRES</li><li>Go to checkout 1</li><li>Check UI should be correct for the design and wording</li><li>Verify that product can use EXPRESS on the logistic available</li><li>Verify that another logistic other than EXPRESSis available / not available&nbsp;</li><li>Verify that another logistic that available can be choosen</li><li>checkout using EXPRESS success and order created&nbsp;</li></ul></td><td colspan=\"1\"><br /></td><td colspan=\"1\"><div class=\"content-wrapper\"><p><ac:link><ri:user ri:userkey=\"2c90419550dd20fe01519e773d930054\" /></ac:link></p></div></td><td colspan=\"1\"><div class=\"content-wrapper\"><p><span class=\"placeholder-inline-tasks\"><ac:structured-macro ac:name=\"status\" ac:schema-version=\"1\" ac:macro-id=\"a5093e1b-b030-4249-b88f-3e75a8f5a59e\"><ac:parameter ac:name=\"colour\">Grey</ac:parameter><ac:parameter ac:name=\"title\">PENDING</ac:parameter><ac:parameter ac:name=\"\" /></ac:structured-macro></span></p><ac:task-list>\n<ac:task>\n<ac:task-id>681</ac:task-id>\n<ac:task-status>incomplete</ac:task-status>\n<ac:task-body><span class=\"placeholder-inline-tasks\">EN</span></ac:task-body>\n</ac:task>\n<ac:task>\n<ac:task-id>682</ac:task-id>\n<ac:task-status>incomplete</ac:task-status>\n<ac:task-body><span class=\"placeholder-inline-tasks\">ID</span></ac:task-body>\n</ac:task>\n</ac:task-list></div></td><td colspan=\"1\"><div class=\"content-wrapper\"><p><span class=\"placeholder-inline-tasks\"><ac:structured-macro ac:name=\"status\" ac:schema-version=\"1\" ac:macro-id=\"4f264dad-2f86-466f-b18c-d322d4fa8305\"><ac:parameter ac:name=\"colour\">Grey</ac:parameter><ac:parameter ac:name=\"title\">PENDING</ac:parameter><ac:parameter ac:name=\"\" /></ac:structured-macro></span></p><ac:task-list>\n<ac:task>\n<ac:task-id>683</ac:task-id>\n<ac:task-status>incomplete</ac:task-status>\n<ac:task-body><span class=\"placeholder-inline-tasks\">EN</span></ac:task-body>\n</ac:task>\n<ac:task>\n<ac:task-id>684</ac:task-id>\n<ac:task-status>incomplete</ac:task-status>\n<ac:task-body><span class=\"placeholder-inline-tasks\">ID</span></ac:task-body>\n</ac:task>\n</ac:task-list></div></td><td colspan=\"1\"><br /></td></tr></tbody></table></ac:rich-text-body></ac:structured-macro></div></td></tr></tbody></table>",
+      "representation": "storage",
+      "_expandable": {
+        "content": "/rest/api/content/162592801"
+      }
+    },
+    "_expandable": {
+      "editor": "",
+      "view": "",
+      "export_view": "",
+      "styled_view": "",
+      "anonymous_export_view": ""
+    }
+  },
+  "extensions": {
+    "position": "none"
+  },
+  "_links": {
+    "webui": "/display/~andrian/Test",
+    "edit": "/pages/resumedraft.action?draftId=162592801",
+    "tinyui": "/x/IfiwCQ",
+    "collection": "/rest/api/content",
+    "base": "https://confluence.gdn-app.com",
+    "context": "",
+    "self": "https://confluence.gdn-app.com/rest/api/content/162592801"
+  },
+  "_expandable": {
+    "container": "/rest/api/space/~andrian",
+    "metadata": "",
+    "operations": "",
+    "children": "/rest/api/content/162592801/child",
+    "restrictions": "/rest/api/content/162592801/restriction/byOperation",
+    "history": "/rest/api/content/162592801/history",
+    "ancestors": "",
+    "version": "",
+    "descendants": "/rest/api/content/162592801/descendant",
+    "space": "/rest/api/space/~andrian"
+  }
+}

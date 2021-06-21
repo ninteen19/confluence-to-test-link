@@ -6,7 +6,14 @@ import (
 	"github.com/ninteen19/testlink-go-api/testcase"
 )
 
-func CreateTestCase(request *request.CreateTestCase) (*testlink.TestCase, error) {
+type TestlinkOutbound struct {
+}
+
+func NewTestlinkOutbound() *TestlinkOutbound {
+	return &TestlinkOutbound{}
+}
+
+func (o *TestlinkOutbound) CreateTestCase(request *request.CreateTestCase) (*testlink.TestCase, error) {
 	return testcase.Create(
 		request.TestCaseName,
 		request.TestSuiteId,
