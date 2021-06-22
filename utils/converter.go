@@ -42,7 +42,13 @@ func ConvertConfluenceContentToCreateTestCase(content *response.ConfluenceConten
 		return nil
 	}
 
-	createTestCase := &request.CreateTestCase{}
+	createTestCase := &request.CreateTestCase{
+		Status:              testlink.TestCaseStatusDraft,
+		Importance:          testlink.TestImportanceMedium,
+		Order:               0,
+		Execution:           testlink.ExecutionTypeManual,
+		CheckDuplicatedName: false,
+	}
 
 	doc.Find("table").Each(func(i int, selection *goquery.Selection) {
 		selection.Find("thead th").Each(func(i int, selection *goquery.Selection) {
@@ -73,10 +79,10 @@ func ConvertConfluenceContentToCreateTestCase(content *response.ConfluenceConten
 }
 
 func getDefaultTestCaseStep(step string) *testlink.TestCaseStep {
+	manual := testlink.ExecutionTypeManual
 	return &testlink.TestCaseStep{
 		Actions:         step,
 		ExpectedResults: "",
-		Active:          true,
-		ExecutionType:   testlink.ExecutionTypeManual,
+		ExecutionType:   manual.Value(),
 	}
 }

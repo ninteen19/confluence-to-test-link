@@ -12,11 +12,11 @@ type CreateTestCase struct {
 	Summary       string
 	Steps         []testlink.TestCaseStep
 	//Preconditions string
-	//Status                 enums.TestCaseStatus
-	//Importance             enums.TestImportance
-	//Execution              enums.ExecutionType
-	//Order      int
+	Status                 testlink.TestCaseStatus
+	Importance             testlink.TestImportance
+	Execution              testlink.ExecutionType
+	Order      int
 	InternalId int
-	//CheckDuplicatedName    bool
+	CheckDuplicatedName    bool
 	//ActionOnDuplicatedName enums.ActionOnDuplicate
 }

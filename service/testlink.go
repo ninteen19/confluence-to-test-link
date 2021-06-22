@@ -8,7 +8,7 @@ import (
 )
 
 type ITestlinkOutbound interface {
-	CreateTestCase(request *request.CreateTestCase) (*testlink.TestCase, error)
+	CreateTestCase(request *request.CreateTestCase) (*testlink.TestCaseResponse, error)
 }
 
 type TestlinkService struct {
@@ -25,5 +25,11 @@ func (s *TestlinkService) CreateTestCaseFromConfluenceContentClipboard() {
 	confluenceContent := utils.ConvertClipboardToConfluenceContent()
 	createTestCaseRequest := utils.ConvertConfluenceContentToCreateTestCase(confluenceContent)
 
-	fmt.Println(createTestCaseRequest)
+	tc, err := s.ITestlinkOutbound.CreateTestCase(createTestCaseRequest)
+	if err != nil {
+		fmt.Println("Failed creating test case, cause:", err)
+		return
+	}
+
+	fmt.Println("Success creating testcase:", tc)
 }
