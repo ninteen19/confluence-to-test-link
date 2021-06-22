@@ -9,8 +9,8 @@ github.com/divan/gorilla-xmlrpc v0.0.0-20190926132722-f0686da74fda h1:q6BJCx6rxR
 github.com/divan/gorilla-xmlrpc v0.0.0-20190926132722-f0686da74fda/go.mod h1:3Cp6mWQcmK3erqkPrriKEkSpok0LO1uB2M5GxGzifhc=
 github.com/gorilla/rpc v1.2.0 h1:WvvdC2lNeT1SP32zrIce5l0ECBfbAlmrmSBsuc57wfk=
 github.com/gorilla/rpc v1.2.0/go.mod h1:V4h9r+4sF5HnzqbwIez0fKSpANP0zlYd3qR7p36jkTQ=
-github.com/ninteen19/testlink-go-api v0.1.0 h1:PJsqecYQf1jLryDdD+8a0Iug6iRvSfJNDhyhyOWlLzU=
-github.com/ninteen19/testlink-go-api v0.1.0/go.mod h1:88iu0ejEhNLPxzVqCu3PzKk6psypZhM6tGxjihzFumw=
+github.com/ninteen19/testlink-go-api v0.1.0-beta.1 h1:+NmR6+TNkm8M/gkkBrTBVdUyXjzQZcWgGU7xMVtOLGg=
+github.com/ninteen19/testlink-go-api v0.1.0-beta.1/go.mod h1:RficseQul/fWjopV7rtbuEW1Pnh+7ApIdy+Si4wUUyg=
 github.com/rogpeppe/go-charset v0.0.0-20190617161244-0dc95cdf6f31 h1:DE4LcMKyqAVa6a0CGmVxANbnVb7stzMmPkQiieyNmfQ=
 github.com/rogpeppe/go-charset v0.0.0-20190617161244-0dc95cdf6f31/go.mod h1:qgYeAmZ5ZIpBWTGllZSQnw97Dj+woV0toclVaRGI8pc=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
