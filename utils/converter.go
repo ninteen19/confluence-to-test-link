@@ -65,12 +65,10 @@ func ConvertConfluenceContentToCreateTestCase(content *response.ConfluenceConten
 
 		selection.Find("tbody table").Each(func(i int, selection *goquery.Selection) {
 			selection.Find("tbody td:nth-child(2)").Each(func(i int, selection *goquery.Selection) {
-				steps := []string{selection.Find("p").Text()}
-				selection.Find("ul").Contents().Each(func(i int, selection *goquery.Selection) {
-					steps = append(steps, selection.Text())
-				})
-				var stepString = strings.Join(steps, "\n")
-				createTestCase.Steps = append(createTestCase.Steps, *getDefaultTestCaseStep(stepString))
+				s, _ := selection.Find("ul").Html()
+				step := selection.Find("p").Text() + `</br><ul>` + s + `</ul>`
+
+				createTestCase.Steps = append(createTestCase.Steps, *createTestCaseStep(i, step))
 			})
 		})
 	})
@@ -78,10 +76,11 @@ func ConvertConfluenceContentToCreateTestCase(content *response.ConfluenceConten
 	return createTestCase
 }
 
-func getDefaultTestCaseStep(step string) *testlink.TestCaseStep {
+func createTestCaseStep(number int, step string) *testlink.TestCaseStep {
 	manual := testlink.ExecutionTypeManual
 	return &testlink.TestCaseStep{
 		Actions:         step,
+		Number:          number,
 		ExpectedResults: "",
 		ExecutionType:   manual.Value(),
 	}
