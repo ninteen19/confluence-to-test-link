@@ -11,8 +11,8 @@ github.com/divan/gorilla-xmlrpc v0.0.0-20190926132722-f0686da74fda/go.mod h1:3Cp
 github.com/gorilla/rpc v1.2.0/go.mod h1:V4h9r+4sF5HnzqbwIez0fKSpANP0zlYd3qR7p36jkTQ=
 github.com/kolo/xmlrpc v0.0.0-20201022064351-38db28db192b h1:iNjcivnc6lhbvJA3LD622NPrUponluJrBWPIwGG/3Bg=
 github.com/kolo/xmlrpc v0.0.0-20201022064351-38db28db192b/go.mod h1:pcaDhQK0/NJZEvtCO0qQPPropqV0sJOJ6YW7X+9kRwM=
-github.com/ninteen19/testlink-go-api v0.1.0-beta.14 h1:TJq8bmztIuB5HJjkDT6e7mp9xW/cYBuIUqlpViXVelg=
-github.com/ninteen19/testlink-go-api v0.1.0-beta.14/go.mod h1:BMwEpdSQLDfQ6nor2M10cZbXA+N1Xn9pzB93dzR0ib4=
+github.com/ninteen19/testlink-go-api v0.1.0-beta.16 h1:LVZpRwzPRmAS49YKUaRsJfCT3cJtpQBLHo87UbywmK0=
+github.com/ninteen19/testlink-go-api v0.1.0-beta.16/go.mod h1:BMwEpdSQLDfQ6nor2M10cZbXA+N1Xn9pzB93dzR0ib4=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/rogpeppe/go-charset v0.0.0-20190617161244-0dc95cdf6f31/go.mod h1:qgYeAmZ5ZIpBWTGllZSQnw97Dj+woV0toclVaRGI8pc=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=

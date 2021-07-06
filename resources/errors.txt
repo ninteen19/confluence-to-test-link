@@ -1,6 +1,0 @@
-- Fail map response (go-testlink-api)
-- Steps
-    - number
-    - Format
-- Author Login
-- Easier way to get Project ID

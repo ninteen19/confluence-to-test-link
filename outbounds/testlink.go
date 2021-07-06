@@ -13,7 +13,7 @@ func NewTestlinkOutbound() *TestlinkOutbound {
 	return &TestlinkOutbound{}
 }
 
-func (o *TestlinkOutbound) CreateTestCase(request *request.CreateTestCase) (*testlink.TestCaseResponse, error) {
+func (o *TestlinkOutbound) CreateTestCase(request *request.CreateTestCase) error {
 	return testcase.Create(
 		request.TestCaseName,
 		request.TestSuiteId,
