@@ -1,4 +1,4 @@
-package service
+package services
 
 import (
 	"github.com/ninteen19/confluence-to-test-link/models/request"
@@ -40,12 +40,12 @@ func (s *TestlinkService) CreateTestCaseFromConfluenceContentClipboard(authorLog
 			defer wg.Done()
 			err := s.ITestlinkOutbound.CreateTestCase(testCaseRequest)
 			if err != nil {
-				log.Println("Failed creating test case, cause:", err)
+				log.Println("Failed create test case, cause:", err)
 				return
 			}
 		}()
 	}
 	wg.Wait()
 
-	log.Printf("Success creating %v testcase(s)", len(createTestCaseRequests))
+	log.Printf("Success create %v testcase(s)", len(createTestCaseRequests))
 }

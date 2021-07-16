@@ -2,13 +2,15 @@ package main
 
 import (
 	"github.com/ninteen19/confluence-to-test-link/outbounds"
-	"github.com/ninteen19/confluence-to-test-link/service"
+	"github.com/ninteen19/confluence-to-test-link/services"
 	"github.com/ninteen19/testlink-go-api"
 	"log"
 	"os"
 )
 
 func main() {
+	os.Setenv("testlink-devkey", "ab3b331ab9a3996cad5fe61d629bfd31")
+	os.Setenv("testlink-login", "andrian")
 
 	devKey := os.Getenv("testlink-devkey")
 	authorLogin := os.Getenv("testlink-login")
@@ -19,8 +21,7 @@ func main() {
 		return
 	}
 
-	testlink.Conf.Key = "ab3b331ab9a3996cad5fe61d629bfd31"
-	//testlink.Conf.Key = devKey
+	testlink.Conf.Key = devKey
 	testlink.Conf.Url = "https://testlink.gdn-app.com/lib/api/xmlrpc/v1/xmlrpc.php"
 
 	if len(testlinkUrl) > 0 {
@@ -29,7 +30,7 @@ func main() {
 	}
 
 	testlinkOutbound := outbounds.NewTestlinkOutbound()
-	testlinkService := service.NewTestlinkService(testlinkOutbound)
+	testlinkService := services.NewTestlinkService(testlinkOutbound)
 
 	testlinkService.CreateTestCaseFromConfluenceContentClipboard(authorLogin)
 

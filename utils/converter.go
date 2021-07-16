@@ -80,7 +80,9 @@ func ConvertConfluenceContentToCreateTestCase(content *response.ConfluenceConten
 			})
 		})
 
-		testCases = append(testCases, createTestCase)
+		if createTestCase.IsValid() {
+			testCases = append(testCases, createTestCase)
+		}
 	})
 
 	return testCases

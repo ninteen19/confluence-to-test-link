@@ -15,19 +15,17 @@ func NewTestlinkOutbound() *TestlinkOutbound {
 
 func (o *TestlinkOutbound) CreateTestCase(request *request.CreateTestCase) error {
 	return testcase.Create(
-		request.TestCaseName,
-		request.TestSuiteId,
-		request.TestProjectId,
-		request.AuthorLogin,
-		request.Summary,
-		request.Steps,
-		"",
-		testlink.TestCaseStatusDraft,
-		testlink.TestImportanceMedium,
-		testlink.ExecutionTypeManual,
-		0,
-		request.InternalId,
-		false,
-		0,
+		&testcase.CreateRequest{
+			TestCaseName:  request.TestCaseName,
+			TestSuiteId:   request.TestSuiteId,
+			TestProjectId: request.TestProjectId,
+			AuthorLogin:   request.AuthorLogin,
+			Summary:       request.Summary,
+			Steps:         request.Steps,
+			Status:        testlink.TestCaseStatusDraft,
+			Importance:    testlink.TestImportanceMedium,
+			Execution:     testlink.ExecutionTypeManual,
+			InternalId:    request.InternalId,
+		},
 	)
 }

@@ -5,9 +5,7 @@ testSuiteId defined
 
 ## Installation
 
-1. git clone https://github.com/ninteen19/confluence-to-test-link.git
-2. cd confluence-to-test-link
-3. go install
+      go install github.com/ninteen19/confluence-to-testlink
 
 ## Quick Start
 
@@ -28,6 +26,16 @@ testSuiteId defined
 4. type `confluence-to-test-link`
 5. If you found any error, please contact me
 
+## Run test
+
+      go test ./...
+
+### Check coverage
+
+      go clean -testcache && go test -coverpkg ./... -coverprofile cover.out ./... && go tool cover -html=cover.out -o cover.html
+
+then open the cover.html in browser
+
 ## Resources
 
 - `example.json` confluence content json example
@@ -35,7 +43,7 @@ testSuiteId defined
 
 ## TODO
 
-- unit tests
+- [x] unit tests
 - update testlink-go-api, read testProjectId by testprojectkey
 - connect to confluence API (unable to get the API key for now)
 - update confluence structure
