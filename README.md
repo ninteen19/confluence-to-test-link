@@ -4,14 +4,14 @@ Will read confluence content, Parse all the testcases and call create test case 
 
 ## Installation
 
-      go install github.com/ninteen19/confluence-to-testlink@latest
+      go install github.com/ninteen19/confluence-to-test-link@latest
 
 ## Quick Start
 
 1. Add env variable:
-    - `testlink-devkey` = dev key / api key `*required`
-    - `testlink-login` = username, the one we use for login `*required`
-    - `testlink-url` = override default testlink url `*optional`
+    - `TESTLINK_DEVKEY` = dev key / api key `*required`
+    - `TESTLINK_LOGIN` = username, the one we use for login `*required`
+    - `TESTLINK_URL` = override default testlink url `*optional`
 2. Find confluence's page ID:
     - open the page, open dev tools and refresh
     - filter `pageId`

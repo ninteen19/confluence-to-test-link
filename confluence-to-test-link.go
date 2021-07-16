@@ -9,12 +9,12 @@ import (
 )
 
 func main() {
-	devKey := os.Getenv("testlink-devkey")
-	authorLogin := os.Getenv("testlink-login")
-	testlinkUrl := os.Getenv("testlink-url")
+	devKey := os.Getenv("TESTLINK_DEVKEY")
+	authorLogin := os.Getenv("TESTLINK_LOGIN")
+	testlinkUrl := os.Getenv("TESTLINK_URL")
 
 	if len(devKey) < 0 || len(authorLogin) < 0 {
-		log.Println("Unable to find testlink-devkey OR testlink-login from env variable, re-check using `go env`")
+		log.Println("Unable to find testlink-devkey OR testlink-login from env variable")
 		return
 	}
 
