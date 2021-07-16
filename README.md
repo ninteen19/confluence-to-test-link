@@ -1,11 +1,10 @@
 # Confluence to Testlink
 
-Will read confluence content (example: `...`), Insert all the testcases to testlink, as per testProjectId and
-testSuiteId defined
+Will read confluence content, Parse all the testcases and call create test case API to testlink.
 
 ## Installation
 
-      go install github.com/ninteen19/confluence-to-testlink
+      go install github.com/ninteen19/confluence-to-testlink@latest
 
 ## Quick Start
 

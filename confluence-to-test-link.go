@@ -9,9 +9,6 @@ import (
 )
 
 func main() {
-	os.Setenv("testlink-devkey", "ab3b331ab9a3996cad5fe61d629bfd31")
-	os.Setenv("testlink-login", "andrian")
-
 	devKey := os.Getenv("testlink-devkey")
 	authorLogin := os.Getenv("testlink-login")
 	testlinkUrl := os.Getenv("testlink-url")
