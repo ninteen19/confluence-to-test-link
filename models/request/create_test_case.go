@@ -5,12 +5,13 @@ import (
 )
 
 type CreateTestCase struct {
-	TestCaseName  string
-	TestSuiteId   int
-	TestProjectId int
-	AuthorLogin   string
-	Summary       string
-	Steps         []testlink.TestCaseStep
+	TestCaseName    string
+	TestProjectName string
+	TestSuiteId     int
+	TestProjectId   int
+	AuthorLogin     string
+	Summary         string
+	Steps           []testlink.TestCaseStep
 	//Preconditions string
 	Status              testlink.TestCaseStatus
 	Importance          testlink.TestImportance
@@ -23,8 +24,8 @@ type CreateTestCase struct {
 
 func (m *CreateTestCase) IsValid() bool {
 
-	//Validate Name, ProjectId, SuiteId is filled
-	if len(m.TestCaseName) == 0 || m.TestProjectId == 0 || m.TestSuiteId == 0 {
+	//Validate Name, ProjectName, SuiteId is filled
+	if len(m.TestCaseName) == 0 || len(m.TestProjectName) == 0 || m.TestSuiteId == 0 {
 		return false
 	}
 

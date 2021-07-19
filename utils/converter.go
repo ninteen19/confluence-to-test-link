@@ -58,8 +58,8 @@ func ConvertConfluenceContentToCreateTestCase(content *response.ConfluenceConten
 			case enums.Title.Value():
 				createTestCase.TestCaseName = selection.Text()
 				createTestCase.Summary = selection.Text()
-			case enums.TestProjectId.Value():
-				createTestCase.TestProjectId, _ = strconv.Atoi(selection.Text())
+			case enums.TestProjectName.Value():
+				createTestCase.TestProjectName = selection.Text()
 			case enums.TestSuiteId.Value():
 				createTestCase.TestSuiteId, _ = strconv.Atoi(selection.Text())
 			}

@@ -6,7 +6,7 @@ type TableHead int
 
 const (
 	Title TableHead = iota
-	TestProjectId
+	TestProjectName
 	TestSuiteId
 )
 

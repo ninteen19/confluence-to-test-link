@@ -10,8 +10,8 @@ github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/kolo/xmlrpc v0.0.0-20201022064351-38db28db192b h1:iNjcivnc6lhbvJA3LD622NPrUponluJrBWPIwGG/3Bg=
 github.com/kolo/xmlrpc v0.0.0-20201022064351-38db28db192b/go.mod h1:pcaDhQK0/NJZEvtCO0qQPPropqV0sJOJ6YW7X+9kRwM=
-github.com/ninteen19/testlink-go-api v0.2.0 h1:FrD2mUZS8HM70dl4uRTDKaQkbTzhXQoLL3Y/CBBeEJU=
-github.com/ninteen19/testlink-go-api v0.2.0/go.mod h1:qIQJU2U/6A9W+SUPf0QEOvtl0zB1Mbecr3PlkatEtic=
+github.com/ninteen19/testlink-go-api v0.3.0 h1:bJhpz6VUa2J2dOtKX5T6pBG9x4DOudYIvpYGcJMsL5I=
+github.com/ninteen19/testlink-go-api v0.3.0/go.mod h1:RRCxc71il3bqy2MRiuG9nwoPJhMuhk4KMCd0XC3ZPCo=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=

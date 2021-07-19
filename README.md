@@ -43,6 +43,6 @@ then open the cover.html in browser
 ## TODO
 
 - [x] unit tests
-- update testlink-go-api, read testProjectId by testprojectkey
+- [x] update testlink-go-api, read testProjectId by testprojectname
 - connect to confluence API (unable to get the API key for now)
 - update confluence structure

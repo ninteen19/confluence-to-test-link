@@ -4,6 +4,7 @@ import (
 	"github.com/ninteen19/confluence-to-test-link/models/request"
 	"github.com/ninteen19/testlink-go-api"
 	"github.com/ninteen19/testlink-go-api/testcase"
+	"github.com/ninteen19/testlink-go-api/testproject"
 )
 
 type TestlinkOutbound struct {
@@ -28,4 +29,11 @@ func (o *TestlinkOutbound) CreateTestCase(request *request.CreateTestCase) error
 			InternalId:    request.InternalId,
 		},
 	)
+}
+
+func (o *TestlinkOutbound) GetTestProject(testProjectName string) (*testproject.Response, error) {
+	return testproject.Get(
+		&testproject.GetRequest{
+			ProjectName: testProjectName,
+		})
 }
